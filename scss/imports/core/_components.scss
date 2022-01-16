@@ -1,0 +1,64 @@
+// css componen
+.test2__title1{
+    text-align: left;
+}
+.icon_why{
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-align: center;
+    transform: translate(17px,16px);
+}
+.icon_features_special{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-align: center;
+    width:30%;
+    transform: translate(122%, 10px);
+}
+.container{
+    position: relative;
+}
+#particles-js{
+    height:509px;
+    //  
+}
+.img5{
+    transform: translateX(-119px);
+}
+.app_second{
+    transform: translateX(110px);
+}
+.icon_mobile{
+    width: 50%;
+    transform: translateX(50%);
+
+}
+.mobile_test{
+    text-align: center;
+    font-weight: 550;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.mobile_title{
+    text-align: left;
+    margin-left: 10px;
+}
+.is-pointer-down{
+    height: 100%;
+}
+.is-draggable{
+    margin-left: 50px;
+}
+.mobile_div{
+    padding-top: 10px;
+}
+.flickity-viewport{
+    height: 100%;
+}

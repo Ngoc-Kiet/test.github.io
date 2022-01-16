@@ -1,0 +1,88 @@
+/*primary colors*/
+$white-cl: #fff;
+$black-cl: #000;
+$green-cl:#28d57a;
+$white-cl: #fff;
+$black-cl: #000;
+$gray-cl: #818181;
+$blue-cl: #132539;
+$orange-cl: #c48b2c;
+$line-cl: #585958;
+
+/*global text color*/
+$text-cl: #222;
+$text-black-cl: #000;
+
+/*global bg color*/
+$main-bg-cl: #000;
+$black-bg-cl: #000;
+
+// timing transition
+$t: 0.4s;
+$cubic: cubic-bezier(0.84, 0.13, 0.33, 0.97);
+
+/*font families*/
+$font-stack: "Open Sans", sans-serif;
+$font-main: arial;
+
+/*headings typo*/
+$fz-text: 16px;
+$lh-text: normal;
+
+$fz-text-m: 16px;
+$lh-text-m: normal;
+
+//============================================================//
+
+/*BOXED LAYOUT*/
+$container-max-width: 1920px;
+$container-width: 1040px; // tùy thuộc vào container của bản thiết kế mà chỉnh sửa cho hợp lý
+
+/*GRID - media queries breakpoints*/
+$xxs-min: 576px; // CÓ THỂ TÙY CHỈNH
+$xs-min: 768px; // KHÔNG THAY ĐỔI
+$sm-min: 992px; // KHÔNG THAY ĐỔI
+$md-min: 1200px; // KHÔNG THAY ĐỔI
+$lg-min: 1600px; // CÓ THỂ TÙY CHỈNH
+
+$xxs-max: ($xxs-min - 1); // Small Mobile
+$xs-max: ($xs-min - 1); // Mobile
+$sm-max: ($sm-min - 1); // Tablet
+$md-max: ($md-min - 1); // Desktop
+$lg-max: ($lg-min - 1); // Large Desktop
+
+$primary:   #5c54ff;
+$success:   #00c99c;
+$info:      #15b2ec;
+$warning:   #f5a416;
+$danger:    #fb7179;
+$purple:    #9261c6;
+$pink:      #f12699;
+$white:     #ffffff;
+$dark:      #0e2a47;
+$light:     #f5f8f9;
+$muted:     #5f7d95;
+
+// stylelint-disable
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #efefef;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #89a2b5;
+$gray-700: #495057;
+$gray-800: #2d2d2d;
+$gray-900: #1d262d;
+
+
+$body-bg:                   #f5f5f5;
+$box-shadow:                0 0 40px rgba(95,125,149,0.1);
+$box-shadow-lg:             0px 15px 30px 0px rgba(134, 159, 178, 0.2);
+$bg-gradient:               linear-gradient(to top, #0c077f, #6761ff);
+
+
+// Base font
+$font-size-base:              16px;
+
+$font-family-base:            'Rubik', sans-serif;
+$font-family-secondary:       'Rubik', sans-serif;

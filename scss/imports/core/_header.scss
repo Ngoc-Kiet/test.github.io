@@ -1,0 +1,74 @@
+.menu-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: $blue-cl;
+    z-index: 1000;
+    transition: 0.5s;
+    opacity: 0;
+    pointer-events: none;
+    .container {
+        height: 100%;
+    }
+    @include sm {
+        display: none;
+    }
+    &.active {
+        height: 50px;
+        transition: 0.5s;
+        opacity: 1;
+        pointer-events: auto;
+    }
+    ul {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        li {
+            position: relative;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+            a {
+                @include text(12px, arial, none, #ffffff, upperCase);
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                position: relative;
+                &::before {
+                    content: "";
+                    height: 0;
+                    width: 0;
+                    background: $white-cl;
+                    position: absolute;
+                    bottom: 1px;
+                    left: 0;
+                    transition: all 0.5s;
+                }
+            }
+            &:hover {
+                & a {
+                    &::before {
+                        transition: all 0.3s;
+                        height: 2px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        a {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            img {
+                width: 100px;
+            }
+        }
+    }
+}
+.menu-fullscreen{visibility:hidden;position:fixed;height:100vh;top:0;left:0;width:0;background:#1f2423;z-index:10;transition:all 0.3s;opacity:0}.menu-fullscreen.active{visibility:visible;width:500px;opacity:1}.menu-fullscreen.active-mobile{visibility:visible;width:100%;opacity:1}.menu-fullscreen__header{display:flex;justify-content:space-between;align-items:center;padding:40px 50px}.menu-fullscreen__header span{display:flex;align-items:center;font-size:11px;font-family:AH;text-transform:uppercase;color:#fff}.menu-fullscreen__header span img{width:20px;margin-left:20px;transition:all 0.3s}.menu-fullscreen__header span :hover{opacity:0.5;transition:all 0.3s}.menu-fullscreen__main .menu-fullscreen__left .logo{position:relative;padding-bottom:30px;text-align:center}.menu-fullscreen__main .menu-fullscreen__left .logo img{width:40px}.menu-fullscreen__main .menu-fullscreen__left .logo:before{content:"";height:1px;width:80px;background:#fff;position:absolute;bottom:15px;left:50%;transform:translateX(-50%)}.menu-fullscreen__main .menu-fullscreen__left .close{text-align:center;cursor:pointer}.menu-fullscreen__main .menu-fullscreen__left .close img{width:40px;transition:all 0.5s}.menu-fullscreen__main .menu-fullscreen__left .close img:hover{transition:all 0.5s;opacity:0.5;transform:scale(0.8)}.menu-fullscreen__main .menu-fullscreen__right ul li{padding-bottom:30px}.menu-fullscreen__main .menu-fullscreen__right ul li a{color:#fff;font-family:eb;font-size:26px;text-transform:uppercase;padding-bottom:14px;position:relative;transition:all 0.3s;text-decoration:none}.menu-fullscreen__main .menu-fullscreen__right ul li a::before{content:"";height:1px;width:0;background:#fff;position:absolute;bottom:0;transition:all 0.3s}.menu-fullscreen__main .menu-fullscreen__right ul li a:hover{opacity:0.5;transition:all 0.3s}.menu-fullscreen__main .menu-fullscreen__right ul li a:hover::before{width:100%}.menu-fullscreen .modal{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:-1}
+.menu-mobile{position:fixed;top:0;left:0;height:50px;width:100%;background:#132539;z-index:1000;display:none}@media screen and (max-width: 999px){.menu-mobile{display:block}}.menu-mobile .container{height:100%;display:flex;justify-content:space-between}.menu-mobile .container .menu-mobile__hamburger{display:flex;height:100%;align-items:center}.menu-mobile .container .menu-mobile__hamburger span{position:relative;height:1px;width:30px;background:#fff;margin-right:20px}.menu-mobile .container .menu-mobile__hamburger span::before{content:"";position:absolute;height:1px;width:30px;background:#fff;top:-10px}.menu-mobile .container .menu-mobile__hamburger span::after{content:"";position:absolute;height:1px;width:30px;background:#fff;bottom:-10px}.menu-mobile .container .menu-mobile__hamburger p{color:#fff;font-size:16px;font-family:Arial}.menu-mobile .container .menu-mobile__logo{height:100%}.menu-mobile .container .menu-mobile__logo a{height:100%;display:flex;align-items:center}.menu-mobile .container .menu-mobile__logo a img{height:100%;width: 100%;}

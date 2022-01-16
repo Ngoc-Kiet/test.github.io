@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Grunt CFD</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <!-- meta facebook -->
+    <meta property="og:locale" content="vi" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Trang chủ" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="" />
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="dest/style.min.css">
+    <link rel="stylesheet" href="dest/fonts.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+    <div class="menu-fixed">
+        <div class="container">
+            <ul>
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#features">Tính Năng</a></li>
+                <li><a href="#moreFeatures">Độ Hài Lòng</a></li>
+                <a href="#home">
+                    <img src="http://vms.scloud.com.vn/asset-home/images/Qi_logo-long-white.png" alt="">
+                </a>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#Apps">Tin tức</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+                <li><a href="#contrucstion">Hướng dẫn</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="menu-fullscreen">
+        <div class="menu-fullscreen__header">
+            <span></span>
+            <span>
+                <a href=""><img src="img/email.svg" alt=""></a>
+                <a href=""><img src="img/facebook.svg" alt=""></a>
+            </span>
+        </div>
+        <div class="menu-fullscreen__main">
+            <div class="row">
+                <div class="menu-fullscreen__left col-4">
+                    <div class="logo"><a href="index.html">
+                            <img src="img/logo.svg" alt=""></a>
+                    </div>
+                    <div class="close">
+                        <img src="img/cancel.svg" alt="">
+                    </div>
+                </div>
+                <div class="menu-fullscreen__right col-8">
+                    <ul>
+                        <li class="menuMobile1"><a class="menuMobile" href="#home">Trang Chủ</a></li>
+                        <li class="menuMobile1"><a class="menuMobile" href="#features">Tính Năng</a></li>
+                        <li class="menuMobile1"><a class="menuMobile" href="#moreFeatures">Độ Hài Lòng</a></li>
+                        <li class="menuMobile1"><a class="menuMobile" href="#faqs">FAQs</a></li>
+                        <li class="menuMobile1"><a class="menuMobile" href="#Apps">Tin tức</a></li>
+                        <li class="menuMobile1"><a class="menuMobile" href="#contact">Liên hệ</a></li>
+                        <li class="menuMobile1"><a class="menuMobile" href="#contrucstion">Hướng dẫn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="modal"></div>
+    </div>
+    <div class="menu-mobile">
+        <div class="container">
+            <div class="menu-mobile__hamburger">
+                <span></span>
+                <p>MENU</p>
+            </div>
+            <div class="menu-mobile__logo">
+                <a href="index.html">
+                    <img src="http://vms.scloud.com.vn/asset-home/images/Qi_logo-long-white.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="home">
+        <div class="container">
+            <div class="header">
+                <div class="header__logo">
+                    <img src="http://vms.scloud.com.vn/asset-home/images/logo Qi_NAGATIVE_Logo_NAGATIVE.png" alt="">
+                </div>
+                <div class="header__menu">
+                    <a class="header__menu-tilte" href="#home">Trang Chủ</a>
+                    <a class="header__menu-tilte" href="#features">Tính Năng</a>
+                    <a class="header__menu-tilte" href="#moreFeatures">Độ Hài Lòng</a>
+                    <a class="header__menu-tilte" href="#faqs">FAQs</a>
+                    <a class="header__menu-tilte" href="#contact">Liên hệ</a>
+                    <a class="header__menu-tilte" href="#contrucstion">Hướng dẫn</a>
+                </div>
+                <div class="header__login">
+                    <div>Đăng nhập</div>
+                </div>
+            </div>
+        </div>
+        <section class="contents">
+
+            <div class="content">
+                <div id="particles-js">
+                    <!-- <div class="area" >
+                            <ul class="circles">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                            </ul>
+                        </div > -->
+                    <div class="content__manage">
+
+                        <h1 class="content__manage-visitors">Mọi thứ bạn chỉ cần
+                            Tiếp nhận khách mời - Duyệt yêu cầu và quản lý dữ liệu.</h1>
+                        <div></div>
+                    </div>
+                    <div class="content__tilte">
+
+                        <p>
+                            <strong style="color: white; font-weight: bold;">Qior</strong> - Visitor Management System
+                            là nền tảng sử dụng công nghệ AI cho việc quản lý khách vào - ra
+                            Khám phá Qior ngay bây giờ?
+                        </p>
+
+                    </div>
+                    <div class="signup">
+                        <div></div>
+                        <button type="button" class="button1 button3">
+                            <span>Trải Nghiệm Ngay</span>
+
+                        </button>
+
+                        <div></div>
+                    </div>
+                    <div class="macbook-screen">
+                        <img class="" src="./img/1.jpg" scale="0">
+                    </div>
+                    <div class="banner-card bannerCardDeskTop">
+                        <i class="material-icons">cloud</i>
+                        <h4>Upgrade your office to 5G!</h4>
+                        <p>One-stop smart visitor management system to ensure safe workspace.</p>
+                        <button class="btn btn-primary popupClass know-more button2 button3" id="">Explore</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+    <section id="features">
+        <div class="container">
+            <div class="content">
+                <h2 class=content__stay>Tính năng nổi bật</h2>
+                <p class="content__manage">Manage everything that comes through your front door!</p>
+            </div>
+            <div class="row">
+                <div class="row__sigunp">
+                    <img class="icon_features_special" src="./img/Tính năng nổi bật/datlichhen.jpg" alt="">
+                    <h2>Đặt lịch hẹn</h2>
+                    <p>Cho phép khách chủ động đăng kí lịch hẹn với doanh nghiệp một cách nhanh chóng và dễ dàng thông
+                        qua mobile app</p>
+                </div>
+                <div class="row__sigunp">
+                    <img class="icon_features_special" src="./img/Tính năng nổi bật/dinhdanhkhach.jpg" alt="">
+                    <h2>Định danh khách vào/ra tòa nhà</h2>
+                    <p>Đăng kí tại khu Lễ tân hoặc Phòng bảo vệ, khai báo các thông tin cá nhân, người cần gặp và vật
+                        dụng mang theo nếu có</p>
+                </div>
+                <div class="row__sigunp">
+                    <img class="icon_features_special" src="./img/Tính năng nổi bật/quanlithongtin.jpg" alt="">
+                    <h2>Quản lí thông tin</h2>
+                    <p>Nhận thông báo khi có khách đăng kí vào, lưu trữ thông tin vào hệ thống và xuất các báo cáo khi
+                        cần thiết</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="moreFeatures">
+
+        <div class="container">
+            <div class="moreFeatures__row">
+                <h3>Một Số Tính Năng Khác</h3>
+            </div>
+            <div class="abc">
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/rfid.jpg" alt="" style="width:34px">
+                        <div class="fas-title">Thẻ khách RFID</div>
+                    </div>
+                    <span class="popup">
+                        <div class="popup_header">Thẻ khách RFID</div>
+                        <hr style="width:80%">
+                        <div>Cấp phát thẻ RFID cho khách có thể gắn kèm QR Code để quản lí kiểm soát vào/ra, hạn chế
+                            truy cập các khu vực cấm </div>
+                    </span>
+                </div>
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/canhbaoemail.jpg" alt=""
+                            style="width:34px">
+                        <div class="fas-title">Cảnh báo Email</div>
+                    </div>
+                    <span class="popup1">
+                        <div class="popup_header">Cảnh báo Email</div>
+                        <hr style="width:80%">
+                        <div>Thông báo cho khách biết sắp hết thời gian gặp.</div>
+                    </span>
+                </div>
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/thongbao.jpg" alt="" style="width:34px">
+                        <div class="fas-title">Thông báo</div>
+                    </div>
+                    <span class="popup2">
+                        <div class="popup_header">Thông báo</div>
+                        <hr style="width:80%">
+                        <div style="text-align:left; padding-left:50px">• Khách đăng ký vào<br>
+                            • Phê duyệt<br>
+                            • Từ chối
+                        </div>
+                    </span>
+                </div>
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/dinhdanhkhach.jpg" alt=""
+                            style="width:34px">
+                        <div class="fas-title">Cảnh Báo Danh Sách Đen</div>
+                    </div>
+                    <span class="popup3">
+                        <div class="popup_header">Cảnh Báo Danh Sách Đen</div>
+                        <hr style="width:80%">
+                        <div>Công nghệ Face ID cho phép cảnh báo các cá nhân có trong danh sách đen của cơ quan an ninh.
+                        </div>
+                    </span>
+                </div>
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/vip.jpg" alt="" style="width:34px">
+                        <div class="fas-title">Kênh ưu tiên VIP </div>
+                    </div>
+                    <span class="popup4">
+                        <div class="popup_header">Kênh ưu tiên VIP</div>
+                        <hr style="width:80%">
+                        <div>Hệ thống Nhận dạng và thông báo Khách VIP nhằm có chính sách ưu tiên, nâng cao chất lượng
+                            dịch vụ</div>
+                    </span>
+                </div>
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/thietbiphathienthannhiet.jpg" alt=""
+                            style="width:34px">
+                        <div class="fas-title">Thiết bị phát hiện thân nhiệt cao</div>
+                    </div>
+                    <span class="popup5">
+                        <div class="popup_header">Thiết bị phát hiện thân nhiệt cao</div>
+                        <hr style="width:80%">
+                        <div>Kiểm tra Nhiệt độ theo ngưỡng, ngăn ngừa nguy cơ lây lan dịch bệnh Covid-19</div>
+                    </span>
+                </div>
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/ocr.jpg" alt="" style="width:34px">
+                        <div class="fas-title">Scan OCR </div>
+                    </div>
+                    <span class="popup6">
+                        <div class="popup_header">Scan OCR</div>
+                        <hr style="width:80%">
+                        <div>Bóc tách thông tin trên Căn cước công dân, Passport nhằm số hóa dữ liệu khách liên hệ công
+                            tác</div>
+                    </span>
+                </div>
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/qr-code.jpg" alt="" style="width:34px">
+                        <div class="fas-title">QR Code</div>
+                    </div>
+                    <span class="popup7">
+                        <div class="popup_header">QR Code</div>
+                        <hr style="width:80%">
+                        <div>• Đăng nhập thiết bị<br>
+                            • Mời khách<br>
+                            • Check-in / Check-out
+                        </div>
+                    </span>
+                </div>
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/dashboard.jpg" alt="" style="width:34px">
+                        <div class="fas-title">Dashboard</div>
+                    </div>
+                    <span class="popup8">
+                        <div class="popup_header">Dashboard</div>
+                        <hr style="width:80%">
+                        <div>Biểu đồ thống kê số lượng cuộc gặp, tổng số khách , các số liệu liên quan đến cuộc gặp,….
+                        </div>
+                    </span>
+                </div>
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/settings.jpg" alt="" style="width:34px">
+                        <div class="fas-title">Cài đặt</div>
+                    </div>
+                    <span class="popup9">
+                        <div class="popup_header">Cài đặt</div>
+                        <hr style="width:80%">
+                        <div>Cho phép cấu hình chức năng phù hợp với nhu cầu sử dụng của khách hàng </div>
+                    </span>
+                </div>
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/thongbao.jpg" alt="" style="width:34px">
+                        <div class="fas-title">Phê duyệt/Từ chối cuộc gặp</div>
+                    </div>
+                    <span class="popup10">
+                        <div class="popup_header">Phê duyệt/Từ chối cuộc gặp</div>
+                        <hr style="width:80%">
+                        <div>Phê duyệt hoặc từ chối các yêu cầu cần gặp của khách.</div>
+                    </span>
+                </div>
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/chukidientu.jpg" alt=""
+                            style="width:34px">
+                        <div class="fas-title">Chữ kí điện tử</div>
+                    </div>
+                    <span class="popup11">
+                        <div class="popup_header">Chữ kí điện tử</div>
+                        <hr style="width:80%">
+                        <div>Khách kí tên trên Kiosk/Tablet khi hoàn tất đăng kí.</div>
+                    </span>
+                </div>
+                <div class="features__item">
+                    <div class="fas">
+                        <img class="icon_features" src="./img/Tính năng nổi bật/baocao.jpg" alt="" style="width:34px">
+                        <div class="fas-title">Báo cáo</div>
+                    </div>
+                    <span class="popup12">
+                        <div class="popup_header">Chữ kí điện tử</div>
+                        <hr style="width:80%">
+                        <div>Xuất báo cáo cuộc gặp tổng thể hoặc chi tiết.</div>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div class="ideal">
+        <div class="container">
+            <div class="total">
+                <div class="ideal__security">
+                    <h3 class="ideal__title">Vì sao chọn Qior Visitor Management System?</h3>
+                    <div class="ideal__content">Visitdesk provides an end-to-end solution for your front desk, lobby and
+                        gatekeeping. Let it be a Government Office, Corporate office, Personal office, Hospital, Clinic,
+                        School, College, Hotel, Residential House, Gated Community and where ever you could possibly
+                        imagine of inflow if visitors "Visitdesk is an Ideal Solution" for you.</div>
+                </div>
+                <div class="cicrle">
+                    <div class="cicrle__ideal"></div>
+                    <ul class="test2">
+                        <li class="test2__industry active">
+                            <div class="none">
+                                <p class="TotalMain ab1"> <img class="icon_why"
+                                        src="./img/Vì sao chọn Qior visitor/antoanvabaomat.jpg" alt=""></p>
+                                <h3 class="aa1">An toàn và bảo mật cao</h3>
+                                <p class="test2__title1">
+                                    • Xác thực QR Code<br>
+                                    • Nhận diện khuôn mặt<br>
+                                    • Liệt kê danh sách đen, nhận diện VIP<br>
+                                    • Cảnh báo tự động khi có xâm nhập trái phép
+                                </p>
+                            </div>
+                        </li>
+                        <li class="test2__industry">
+                            <div class="none">
+                                <p class="TotalMain ab2"><img class="icon_why"
+                                        src="./img/Vì sao chọn Qior visitor/quanlitaptrung.jpg" alt=""></p>
+                                <h3 class="aa2">Quản lí tập trung</h3>
+                                <p class="test2__title1">
+                                    • Lưu trữ dữ liệu trên dashboard tổng thể<br style="padding-bottom: 10px;">
+                                    • Giám sát thời gian đến và đi<br>
+                                    • Báo cáo tuỳ chỉnh<br>
+                                    • Cảnh báo Pop-up, Email
+                                </p>
+                            </div>
+                        </li>
+                        <li class="test2__industry">
+                            <div class="none">
+                                <p class="TotalMain ab3"><img class="icon_why"
+                                        src="./img/Vì sao chọn Qior visitor/hanchetiepxuc.jpg" alt=""></p>
+                                <h3 class="aa3">Hạn chế tiếp xúc</h3>
+                                <p class="test2__title3">Tích hợp thiết bị kiểm tra thân nhiệt và nhận diện khuôn mặt,
+                                    kiểm soát truy cập, phát hiện và ngăn ngừa nguy cơ lây lan dịch bệnh.</p>
+                            </div>
+                        </li>
+                        <li class="test2__industry">
+                            <div class="none">
+                                <p class="TotalMain ab4"><img class="icon_why"
+                                        src="./img/Vì sao chọn Qior visitor/giamchiphinhansu.jpg" alt=""></p>
+                                <h3 class="aa4">Giảm chi phí nhân sự quản lý, chi phí vận hành</h3>
+                                <p class="test2__title4">Hệ thống quản lí số hóa cho phép lưu trữ, kiểm soát và bảo mật
+                                    toàn bộ lịch sử khách vào/ ra, giảm số lượng người tham gia vận hành, tiết kiệm thời
+                                    gian và chi phí.</p>
+                            </div>
+                        </li>
+                        <li class="test2__industry">
+                            <div class="none">
+                                <p class="TotalMain ab5"><img class="icon_why"
+                                        src="./img/Vì sao chọn Qior visitor/desudung.jpg" alt=""></p>
+                                <h3 class="aa5">Dễ sử dụng</h3>
+                                <p class="test2__title5">Giao diện người dùng thân thiện và trực quan, thiết kế tinh
+                                    gọn, tối ưu, dễ dàng truy cập và thao tác.</p>
+                            </div>
+                        </li>
+                        <li class="test2__industry">
+                            <div class="none">
+                                <p class="TotalMain ab6"><img class="icon_why"
+                                        src="./img/Vì sao chọn Qior visitor/quanlitaptrung.jpg" alt=""></p>
+                                <h3 class="aa6">Hỗ trợ API mở</h3>
+                                <p class="test2__title6">Tích hợp dễ dàng với các hệ thống điều khiển thang máy, HRMS,
+                                    ERP, MIS, SCM….</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="mobile">
+                <div class="mobile__security">
+                    <h3 class="mobile__title">Visitdesk provides an end-to-end solution for your front desk.</h3>
+                    <div class="mobile__content">Visitdesk provides an end-to-end solution for your front desk, lobby
+                        and gatekeeping. Let it be a Government Office, Corporate office, Personal office, Hospital,
+                        Clinic, School, College, Hotel, Residential House, Gated Community and where ever you could
+                        possibly imagine of inflow if visitors "Visitdesk is an Ideal Solution" for you.</div>
+                </div>
+                <div class="main-carousel">
+                    <div class="carousel-cell">
+                        <div>
+                            <p class="TotalMain ab1"> <img class="icon_mobile"
+                                    src="./img/Vì sao chọn Qior visitor/antoanvabaomat.jpg" alt=""></p>
+                            <h3 class="mobile_test">An toàn và bảo mật cao</h3>
+                            <p class="mobile_title">
+                            <div class="mobile_div">• Xác thực QR Code</div>
+                            <div class="mobile_div">Nhận diện khuôn mặt</div>
+                            <div class="mobile_div">• Liệt kê danh sách đen, nhận diện VIP</div>
+                            <div class="mobile_div">• Cảnh báo tự động khi có xâm nhập trái phép</div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div>
+                            <p class="TotalMain ab2"><img class="icon_mobile"
+                                    src="./img/Vì sao chọn Qior visitor/quanlitaptrung.jpg" alt=""></p>
+                            <h3 class="mobile_test">Quản lí tập trung</h3>
+                            <p class="mobile_title">
+                            <div class="mobile_div">• Lưu trữ dữ liệu trên dashboard tổng thể</div>
+                            <div class="mobile_div">• Giám sát thời gian đến và đi</div>
+                            <div class="mobile_div">• Báo cáo tuỳ chỉnh</div>
+                            <div class="mobile_div">• Cảnh báo Pop-up, Email</div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div>
+                            <p class="TotalMain ab3"><img class="icon_mobile"
+                                    src="../img/Vì sao chọn Qior visitor/hanchetiepxuc.jpg" alt=""></p>
+                            <h3 class="mobile_test">Hạn chế tiếp xúc</h3>
+                            <p class="mobile_title">
+                            <div class="mobile_div">Tích hợp thiết bị kiểm tra thân nhiệt và nhận diện khuôn mặt, kiểm
+                                soát truy cập, phát hiện và ngăn ngừa nguy cơ lây lan dịch bệnh.</div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="none">
+                            <p class="TotalMain ab4"><img class="icon_mobile"
+                                    src="./img/Vì sao chọn Qior visitor/giamchiphinhansu.jpg" alt=""></p>
+                            <h3 class="mobile_test">Giảm chi phí nhân sự quản lý, chi phí vận hành</h3>
+                            <p class="mobile_title">
+                            <div class="mobile_div">Hệ thống quản lí số hóa cho phép lưu trữ, kiểm soát và bảo mật toàn
+                                bộ lịch sử khách vào/ ra, giảm số lượng người tham gia vận hành, tiết kiệm thời gian và
+                                chi phí.</div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="none">
+                            <p class="TotalMain ab5"><img class="icon_mobile"
+                                    src="./img/Vì sao chọn Qior visitor/desudung.jpg" alt=""></p>
+                            <h3 class="mobile_test">Dễ sử dụng</h3>
+                            <p class="mobile_title">
+                            <div class="mobile_div">Giao diện người dùng thân thiện và trực quan, thiết kế tinh gọn, tối
+                                ưu, dễ dàng truy cập và thao tác.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="prices">
+                <div class="container">
+                    <div class="pricing">
+                        <h3 class="pricing__header">OUR PRICING</h3>
+                        <div class="pricing__content">Get Awesome Features,Without Extra Charges</div>
+                        <div class="pricing__text">Tempus porta massa sed eleifend sagittis eget aliquam iaculis enim.
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div class="price__component">
+                            <div class="price__component-header">
+                                <h3 class="price__component-header_tilte">BASIC</h3>
+                                <div class="price__component-header--pricing">Free</div>
+                            </div>
+                            <ul class="price__component-title">
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                            </ul>
+                            <a href="#home" class="pricing-action mblBtnBanner  button3">Signup Now</a>
+
+                        </div>
+                        <div class="price__component">
+                            <div class="price__component-header">
+                                <h3 class="price__component-header_tilte">BASIC</h3>
+                                <div class="priceDuration">
+                                    <div class="toggle monthly-pro">Monthly</div>
+                                    <div class="toggle yearly-pro active1">Yearly</div>
+                                </div>
+                            </div>
+                            <ul class="price__component-title">
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                            </ul>
+                            <a href="#home" class="pricing-action mblBtnBanner  button3">Signup Now</a>
+
+                        </div>
+                        <div class="price__component list__shado">
+                            <div class="price__component-header">
+                                <h3 class="price__component-header_tilte">Professional</h3>
+                                <div class="priceDuration">
+                                    <div class="toggle monthly-pro">Monthly</div>
+                                    <div class="toggle yearly-pro active1">Yearly</div>
+                                </div>
+                            </div>
+                            <ul class="price__component-title">
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                            </ul>
+                            <a href="#home" class="pricing-action mblBtnBanner  button3">Signup Now</a>
+
+                        </div>
+                        <div class="price__component">
+                            <div class="price__component-header">
+                                <h3 class="price__component-header_tilte">BASIC</h3>
+                                <div class="price__component-header--pricing">Free</div>
+                            </div>
+                            <ul class="price__component-title">
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                                <li class="price__component-title--content">100 Visits</li>
+                            </ul>
+                            <a href="#home" class="pricing-action mblBtnBanner button3">Signup Now</a>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="col-lg-12">
+                <div class="text-center title-content">
+                    <h6 class="text-uppercase f-14 text-primary"
+                        style="font-family: 'Cabin', sans-serif; font-weight:bold">PHẢN HỒI TỪ KHÁCH HÀNG</h6>
+                    <h2 class="mt-3" style="font-family: 'Cabin', sans-serif; font-weight: bold;font-size: 28px;">Khách
+                        hàng vui vẻ của chúng tôi đã hài lòng như thế nào</h2>
+                    <p class="text-muted mt-3">Đánh giá khách quan dựa trên cảm nhận của người sử dụng.
+                    </p>
+                </div>
+            </div>
+            <div class="main">
+
+                <div class="carousel-cell">
+                    <div class="customers">
+                        <div class="customer">
+                            <img class="customer__img" src="./img/1.jpg" alt="">
+                            <div class="customer__title">
+                                <div class="customer__title-name">
+                                    abc
+                                </div>
+                                <div class="customer__title-location">
+                                    Frontend
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="customers__title">"Proin fermentum purus eu dapibus sem Interdum et
+                            malesuada fames ac ante psum primis faucbus nullam sagitis elentum consectetur."
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-cell">
+                    <div class="customers">
+                        <div class="customer">
+                            <img class="customer__img" src="./img/1.jpg" alt="">
+                            <div class="customer__title">
+                                <div class="customer__title-name">
+                                    abc
+                                </div>
+                                <div class="customer__title-location">
+                                    Frontend
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="customers__title">"Proin fermentum purus eu dapibus sem Interdum et
+                            malesuada fames ac ante psum primis faucbus nullam sagitis elentum consectetur."
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-cell">
+                    <div class="customers">
+                        <div class="customer">
+                            <img class="customer__img" src="./img/1.jpg" alt="">
+                            <div class="customer__title">
+                                <div class="customer__title-name">
+                                    abc
+                                </div>
+                                <div class="customer__title-location">
+                                    Frontend
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="customers__title">"Proin fermentum purus eu dapibus sem Interdum et
+                            malesuada fames ac ante psum primis faucbus nullam sagitis elentum consectetur."
+                        </div>
+                    </div>
+
+                </div>
+                <section class="main">
+                    <div class="carousel-cell">
+                        <div class="customers">
+                            <div class="customer">
+                                <img class="customer__img" src="./img/1.jpg" alt="">
+                                <div class="customer__title">
+                                    <div class="customer__title-name">
+                                        abc
+                                    </div>
+                                    <div class="customer__title-location">
+                                        Frontend
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="customers__title">"Proin fermentum purus eu dapibus sem Interdum et
+                                malesuada fames ac ante psum primis faucbus nullam sagitis elentum consectetur."
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- START FAQ -->
+        <section class="section" id="faqs" style="background-color: #f8f9fa !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center title-content">
+                            <h6 class="text-uppercase f-14 text-primary"
+                                style="font-family: 'Cabin', sans-serif; font-weight:bold">Đặt câu hỏi?</h6>
+                            <h2 class="mt-3" style="font-family: 'Cabin', sans-serif;">Câu hỏi thường gặp</h2>
+                            <p class="text-muted mt-3">Các câu hỏi liên quan đến cách sử dụng, triển khai giải pháp
+                                Qior.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion" id="accordionExample">
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="faq-collaps">
+                                <!-- start 1 -->
+                                <!-- start 1 -->
+                                <div class="card">
+                                    <a id="togle5" href="#collapse1" class="faq collapsed">
+                                        <div class="card-header" id="heading1">
+                                            <h5 class="text-dark"
+                                                style="font-family: 'Cabin', sans-serif; font-weight:bold">Qior có
+                                                thể triển khai ở đâu?</h5>
+                                        </div>
+                                    </a>
+                                    <div id="collapse5" class="collapse">
+                                        <div class="card-body">
+                                            <p class="text-muted">Qior có thể triển khai trên Public/Private Cloud
+                                                hoặc On-Premises tuỳ chọn;
+                                                không thu thập thông tin Visitor (quyền quản lý thuộc chủ nhân
+                                                Premises);
+                                                đơn giản trong sử dung cho cả Admin, Lễ Tân, Người duyệt Visitor.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end 1 -->
+
+                                <!-- start 1 -->
+                                <div class="card">
+                                    <a id="togle2" href="#collapse1" class="faq collapsed">
+                                        <div class="card-header" id="heading1">
+                                            <h5 class="text-dark"
+                                                style="font-family: 'Cabin', sans-serif; font-weight:bold">Qior có
+                                                thể triển khai ở đâu?</h5>
+                                        </div>
+                                    </a>
+                                    <div id="collapse2" class="collapse">
+                                        <div class="card-body">
+                                            <p class="text-muted">Qior có thể triển khai trên Public/Private Cloud
+                                                hoặc On-Premises tuỳ chọn;
+                                                không thu thập thông tin Visitor (quyền quản lý thuộc chủ nhân
+                                                Premises);
+                                                đơn giản trong sử dung cho cả Admin, Lễ Tân, Người duyệt Visitor.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end 1 -->
+
+                                <!-- start 1 -->
+                                <div class="card">
+                                    <a id="togle3" href="#collapse1" class="faq collapsed">
+                                        <div class="card-header" id="heading1">
+                                            <h5 class="text-dark"
+                                                style="font-family: 'Cabin', sans-serif; font-weight:bold">Qior có
+                                                thể triển khai ở đâu?</h5>
+                                        </div>
+                                    </a>
+                                    <div id="collapse3" class="collapse">
+                                        <div class="card-body">
+                                            <p class="text-muted">Qior có thể triển khai trên Public/Private Cloud
+                                                hoặc On-Premises tuỳ chọn;
+                                                không thu thập thông tin Visitor (quyền quản lý thuộc chủ nhân
+                                                Premises);
+                                                đơn giản trong sử dung cho cả Admin, Lễ Tân, Người duyệt Visitor.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end 1 -->
+                            </div>
+                        </div>
+                        <div class="col-lg-5 offset-lg-1">
+                            <div class="faq-content">
+                                <div class="text-center">
+                                    <img src="images/features./img-2.png" class="img-fluid" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END FAQ -->
+        <section class="Apps" id="Apps">
+            <div class="container">
+                <div class="app">
+                    <div class="app__title">
+                        <h2 class="app__title-header"> <b>Visitdesk</b> Host</h2>
+                        <div class="app__title-content">Elegant, Handy and</div>
+                        <div class="app__title-content">Easy to use host app.</div>
+                        <div class="app__total">
+                            <div class="app-btn">
+                                <div class="app-icon">
+                                    <div class="app-icon-spacing">
+                                        <i class="fa fa-android" aria-hidden="true">
+
+                                        </i>
+                                    </div>
+                                </div>
+                                <div class="app-btn-main">
+                                    <div class="app-icon-spacing">
+                                        <div class="app-main-text1">Free Download</div>
+                                        <div class="app-main-text2"> Google Play</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-btn">
+                                <div class="app-icon">
+                                    <div class="app-icon-spacing">
+                                        <i class="fa fa-android" aria-hidden="true">
+
+                                        </i>
+                                    </div>
+                                </div>
+                                <div class="app-btn-main">
+                                    <div class="app-icon-spacing">
+                                        <div class="app-main-text1">Free Download</div>
+                                        <div class="app-main-text2"> Google Play</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="app__image">
+                        <img src="./img/5.jpg" alt="">
+
+                    </div>
+                </div>
+                <div class="app">
+                    <div class="app__image">
+                        <img class="img5" src="./img/5.jpg" alt="">
+
+                    </div>
+                    <div class="app__title app_second">
+                        <h2 class="app__title-header"> <b>Visitdesk</b> Host</h2>
+                        <div class="app__title-content">Elegant, Handy and</div>
+                        <div class="app__title-content">Easy to use host app.</div>
+                        <div class="app__total">
+                            <div class="app-btn">
+                                <div class="app-icon">
+                                    <div class="app-icon-spacing">
+                                        <i class="fa fa-android" aria-hidden="true">
+
+                                        </i>
+                                    </div>
+                                </div>
+                                <div class="app-btn-main">
+                                    <div class="app-icon-spacing">
+                                        <div class="app-main-text1">Free Download</div>
+                                        <div class="app-main-text2"> Google Play</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="app-btn">
+                                <div class="app-icon">
+                                    <div class="app-icon-spacing">
+                                        <i class="fa fa-android" aria-hidden="true">
+
+                                        </i>
+                                    </div>
+                                </div>
+                                <div class="app-btn-main">
+                                    <div class="app-icon-spacing">
+                                        <div class="app-main-text1">Free Download</div>
+                                        <div class="app-main-text2"> Google Play</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contrucstion">
+            <div class="container">
+                <div class="text-center title-content">
+                    <h6 class="text-uppercase f-14 text-primary"
+                        style="font-family: 'Cabin', sans-serif; font-weight:bold">QUY TRÌNH HƯỚNG DẪN KHÁCH VÀO/RA CÔNG
+                        TY</h6>
+                    <h2 class="mt-3" style="font-family: 'Cabin', sans-serif ;font-weight: bold;font-size: 28px;">Khách
+                        hàng vui vẻ của chúng tôi đã hài lòng như thế nào</h2>
+                    <p class="text-muted mt-3">Đánh giá khách quan dựa trên cảm nhận của người sử dụng.
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="./img/intruction.jpg " alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- START SUBSCRIBE -->
+    <section class="section bg-subscribe">
+        <div class="row subscribe1">
+            <div class="col-lg-12">
+                <div class="text-center">
+                    <h6 class="text-uppercase f-14 text-white">Đăng ký</h6>
+                    <h2 class="mt-3 text-white" style="font-family: 'Cabin', sans-serif;">Dùng thử giải pháp một
+                        cách miễn phí miễn phí</h2>
+                    <p class="text-white-50 mt-4" style="color: rgba(255,255,255,.5)!important;">Điền email của bản vào
+                        ô bên dưới để đăng ký sử dụng giải pháp
+                        <br> Chúng tôi sẽ liên hệ và yêu cầu và thu thập các thông tin.
+                    </p>
+a
+                    <div class="mt-5">
+                        <div class="subscribe mt-5">
+                            <form action="#">
+                                <input placeholder="Email" type="text">
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SUBSCRIBE -->
+
+
+    <!-- START CONTACT -->
+    <section class="section bg-light" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center title-content">
+                        <h6 class="text-uppercase f-14 text-primary"
+                            style="font-family: 'Cabin', sans-serif; font-weight:bold">Liên hệ</h6>
+                        <h2 class="mt-3" style="font-family: 'Cabin', sans-serif;">Giữ liên lạc</h2>
+                        <p class="text-muted mt-3">Điền các thông tin cần thiết vào các ô và gửi cho chúng tôi.
+                            Chúng tôi sẽ thu thập yêu cầu phản hồi trong thời gian sớm nhất.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row mt-5 justify-content-center">
+                <div class="col-lg-10">
+                    <div class="custom-form">
+                        <div id="message"></div>
+                        <form method="post" action="php/contact.php" name="contact-form" id="contact-form">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                        <div class="contact-icon">
+                                            <i class="mdi mdi-account-outline"></i>
+                                        </div>
+                                        <input name="name" id="name" class="form-control" placeholder="Full Name"
+                                            type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                        <div class="contact-icon">
+                                            <i class="mdi mdi-email-outline"></i>
+                                        </div>
+                                        <input name="email" id="email" class="form-control" placeholder="Your Email"
+                                            type="email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <div class="contact-icon">
+                                            <i class="mdi mdi-text-subject"></i>
+                                        </div>
+                                        <input class="form-control" id="subject" placeholder="Subject" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <div class="contact-icon">
+                                            <i class="mdi mdi-subtitles-outline"></i>
+                                        </div>
+                                        <textarea name="comments" id="comments" rows="5" class="form-control"
+                                            placeholder="Your Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mt-3">
+                                    <input id="submit" name="send" class="submitBnt btn btn-primary btn-round"
+                                        value="Send Message" type="submit">
+                                    <div id="simple-msg"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CONTACT -->
+
+    <section class="section bg-footer py-5">
+        <!-- <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+        </div > -->
+        <!-- <div class="bg-overlay"></div> -->
+
+        <div class="container">
+            <!-- <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div> -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-info mt-4">
+                        <img src="images/Qi_logo-long-white.png" alt="" height="50px">
+
+                        <p class="text-white-50 mt-4 f-15" style="color: rgba(255,255,255,.5)!important;">Là công ty
+                            hàng đầu trong lĩnh vực công nghệ,
+                            ứng dụng vào công việc và cuộc sống, góp phần đổi mới sáng tạo, chuyển đổi số,
+                            ứng dụng công nghệ 4.0 và AI vào việc giám sát, quản lý và điều hành doanh nghiệp.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="mt-4">
+                        <h5 class="text-white f-17">Company</h5>
+                        <ul class="list-unstyled footer-link mt-3">
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Our Team</a></li>
+                            <li><a href="">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="mt-4">
+                        <h5 class="text-white f-17">Download</h5>
+                        <ul class="list-unstyled footer-link mt-3">
+                            <li><a href="">Software</a></li>
+                            <li><a href="">Android</a></li>
+                            <li><a href="">Microsoft</a></li>
+                            <li><a href="">iOS</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-1">
+                    <div class="mt-4">
+                        <h5 class="text-white f-17">Support</h5>
+                        <ul class="list-unstyled footer-link mt-3">
+                            <li><a href="">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footer">
+                <div class="col-xl-4">
+                    <h5 class="text-white f-17" style="font-family: 'Cabin', sans-serif"><i
+                            class="fas fa-phone-alt"></i> Số điện thoại</h5>
+                    <p class="text-white f-10">+(84) 283 770 0968<br>
+                        +(84) 283 770 0968</p>
+                </div>
+                <div class="col-xl-4">
+                    <h5 class="text-white f-17" style="font-family: 'Cabin', sans-serif"><img class="email"
+                            src="./img/email.png" alt=""> Email</h5>
+                    <p class="text-white f-10">info@qi.com.vn</p>
+                </div>
+                <div class="col-xl-4">
+                    <h5 class="text-white f-17" style="font-family: 'Cabin', sans-serif"><img class="email"
+                            src="./img/map-position.png" alt="" style="margin-right: 5px;background-color: white;">Địa
+                        chỉ</h5>
+                    <p class="text-white f-10">Qi Technologies Corporation, Lô U14b - 16a, Đường số 22, KCX Tân Thuận,
+                        P. Tân Thuận Đông, Quận 7, Tp. Hồ Chí Minh</p>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="footer-alt">
+                        <ul class="list-inline footer-social float-right mb-0">
+                            <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="mdi mdi-youtube"></i></a></li>
+                        </ul>
+                        <div class="footer-info">
+                            <p class="text-white-50" style="color: rgba(255,255,255,.5)!important;">2021 © Qi
+                                Technologies - All rights reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="toTop">
+        <img class="toTop1" src="./img/up-arrow.png" alt="">
+    </div>
+    <script rel="stylesheet" src="./js/libs/particles.js"></script>
+    <script rel="stylesheet" src="./js/libs/app.js"></script>
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="dest/jsmain.min.js"></script>
+    <script type="text/javascript" src="dest/main.js"></script>
+</body>
+
+</html>

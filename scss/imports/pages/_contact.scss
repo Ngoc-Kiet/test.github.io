@@ -1,0 +1,238 @@
+.bg-subscribe {
+    background: linear-gradient(to top, #0c077f, #6761ff);
+  }
+  
+  .bg-subscribe .subscribe input {
+    padding: 14px 20px;
+    width: 100%;
+    font-size: 18px;
+    color: #0e2a47 !important;
+    border: none;
+    outline: none !important;
+    padding-right: 180px;
+    padding-left: 30px;
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+  
+  .bg-subscribe .subscribe button {
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    outline: none !important;
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 6px 30px;
+  }
+  .bg-overlay-2{
+    background: url(../images/map.png);
+  
+  }
+  .bg-subscribe .subscribe form {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+}
+  .section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f8f9fa!important;
+    position: relative;
+  }
+
+.container{
+  max-width: 1920px
+}
+.section{
+  max-width: 1920px
+}
+//
+// testimonail.scss
+//
+
+
+.testi-box{
+    border: 1px solid rgba($dark, 0.04);
+    box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.1);
+    .testi-img{
+        img{
+            width: 90px;
+            height: 90px;
+        } 
+       
+     }
+     i{
+        width: 37px;
+        height: 37px;
+        line-height: 37px;
+        background-color: $primary;
+        display: inline-block;
+        font-size: 28px;
+        border-radius: 50%;
+        text-align: center;
+        color: $white;
+        position: relative;
+      }
+    .testi-border{
+        width: 60px;
+        height: 2px;
+        background-color: $primary;
+        margin: 0 auto;
+    }
+  }
+  
+  .owl-theme{
+    .owl-controls{
+               margin-top: 50px;
+        .owl-page {
+            span{
+                background-color: $primary;
+            }
+        }
+    }
+  }
+
+
+#collapse5{
+   &.show1{
+       display: block;
+       position: relative;
+   }
+}
+#collapse2{
+    &.show2{
+        display: block;
+    }
+ }
+#collapse3{
+    &.show3{
+        display: block;
+    }
+ }
+ .card{
+    border: 1px solid #f5f8f9;
+    box-shadow: 0 0 10px rgb(95 ,125 ,149);
+    margin-top: 1.5rem!important;
+ }
+ .card-header {
+    background-color: transparent;
+    border-bottom: none;
+    padding: 1rem!important;
+}
+.text-dark{
+    position: relative;
+    &::after{
+        position: absolute;
+        content: '+';
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        text-align: center;
+        background: #5c54ff;
+        line-height: 22px;
+        display: block;
+        float: right;
+        font-family: 'Material Design Icons';
+        font-size: 16px;
+        color: #ffffff;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        }
+}
+
+.contact-icon {
+    position: relative;
+  }
+  
+  .contact-icon i {
+    position: absolute;
+    top: 7px;
+    font-size: 18px;
+    color: #5f7d95;
+    left: 10px;
+  }
+  .contact-loader {
+    display: none;
+  }
+
+  
+  //
+// contact.scss
+//
+
+
+textarea.form-control {
+    height: auto !important;
+  }
+  
+  .error {
+    margin: 8px 0px;
+    display: none;
+    color: $danger;
+  }
+  
+  #ajaxsuccess {
+    font-size: 16px;
+    width: 100%;
+    display: none;
+    clear: both;
+    margin: 8px 0px;
+  
+  }
+  
+  .error_message {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: $danger;
+    border: 2px solid $danger;
+  }
+  
+  .contact-loader {
+    display: none;
+  }
+  
+  #success_page {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .custom-form {
+    .form-control {
+        height: 44px;
+        font-size: 15px;
+        padding-left: 35px;
+        color: $muted;
+        background: transparent;
+        &:focus {
+          border-color: #ced4da;
+            outline: 0;
+            box-shadow: none;
+        }
+    }
+  }
+  
+  
+  .contact-icon{
+    position: relative;
+    i{
+      position: absolute;
+      top: 7px;
+      font-size: 18px;
+      color: $muted;
+      left: 10px;
+    }
+  }
+
+  .email{
+    width: 20px;
+  }
+  .text-white{
+    padding-bottom: 10px;
+  }
+  .subscribe1{
+    background: url(../images/overlay.png);
+  }
+  
